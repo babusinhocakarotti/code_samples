@@ -21,8 +21,19 @@ class Car:                                        # Define a Car class
         return self.__speed                       # Return the private attribute's value
     
 c = Car("Toyota", 2020)            # Create a Car instance
+my_car=Car("Porche Cayenne",2017)
 print(c.model, c.year)             # Access public attributes (works)
 print(c.speed)                     # Access speed via the public property (safe)
+print(my_car.model, c.year)             # Access public attributes (works)
+print(my_car.speed)                     # Access speed via the public property (safe)
+
+my_car.accelerate(80)
 c.accelerate(30)                   # Increase speed by 30
 print(c.speed)                     # Now speed shows updated value
-# print(c.__speed)                 # Would raise AttributeError (encapsulated/private)
+print(my_car.speed)                     # Now speed shows updated value
+c.accelerate(30)                   # Increase speed by 30
+my_car.brake(10)                   # Increase speed by 30
+print(c.speed)                     # Now speed shows updated value
+print(my_car.speed)                     # Now speed shows updated value
+
+print(c.__speed)                 # Would raise AttributeError (encapsulated/private)

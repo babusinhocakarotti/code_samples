@@ -8,4 +8,6 @@ class Car:                                      # Define class Car
         print(f"This car is a {self.year} {self.model}")  # Use self.model and self.year
 
 my_car = Car("Tesla Model 3", 2022)             # Create a Car object and initialize attributes
+my_2ndcar=Car("Porche Cayenne TurboS",2017)
 my_car.describe()                               # Call the method that prints the initialized attributes
+my_2ndcar.describe()
