@@ -1,15 +1,14 @@
-cd C:\Users\Coskun\Desktop\Courses\2025-26_Winter\Object Based Programming\code_samples\ooplabs
+`cd C:\Users\Coskun\Desktop\Courses\2025-26_Winter\Object Based Programming\code_samples\ooplabspytest -v`
 
-pytest -v
 or
-pytest -s
+`pytest -s`
 
 or 
 
-pytest -v -s
+`pytest -v -s`
 
 
-
+```text
 ooplabs/
 │   __init__.py
 │   config.py                       # Central configuration & environment setup (logging level, paths, etc.).
@@ -35,6 +34,8 @@ ooplabs/
     test_wheels.py
     test_bicycle.py
     test_my_car.py
+```
+
 
 |  |  |  |
 | - | - | - |
