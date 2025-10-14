@@ -36,12 +36,6 @@ ooplabs/
     test_my_car.py
 ```
 
-
-|  |  |  |
-| - | - | - |
-|  |  |  |
-|  |  |  |
-
 ---
 
 | Concept                               | Implemented In                   | Description                                               |
